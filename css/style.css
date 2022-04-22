@@ -1,0 +1,182 @@
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: keren;
+    src: url(../font/Hanson-Bold.ttf);
+}
+@font-face {
+    font-family: kurus;
+    src: url(../font/Gilroy-Light.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+::selection{
+    background-color: rgb(183, 183, 183);
+}
+body{
+    background-color: #e5e5e5;
+    font-family : Arial, Helvetica, sans-serif;
+}
+.container{
+    text-align: center;
+    padding: 10px;
+    width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.container h1{
+    margin-bottom: 15px;
+}
+
+.navbar{
+    padding-left:30px ;
+    background-color: #70b3ff;
+    text-align: left;
+}
+
+.navbar li{
+    font-weight: normal;
+    margin-right: 25px;
+    font-size: 12px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.navbar li:hover {
+    font-weight: bold;
+    /* letter-spacing: 3px; */
+    font-weight: 500;
+    color: white;
+    transform: scale(1.2);
+    border-bottom: 1px solid white 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+div#content{
+    background-size: cover;
+    height: 500px;
+    background-image: url(../img/white-podium-pedestal-product-display-white-background-3d-rendering.jpg);
+}
+div#content h2{
+    transition: 0.3s ease;
+    font-family: keren;
+}
+
+
+div #content {
+    font-family: kurus;
+}
+
+
+button{
+    border: none;
+    font-size: 18px;
+    padding: 7px 15px;
+    margin-top: 150px;
+    width: 137px;
+    height: 52px;
+    font-family: keren;
+    transition: ease 0.3s;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(174, 174, 174);
+}
+
+button:hover{
+    height: 62px;
+    width: 157px;
+    border: 3px solid rgb(174, 174, 174);
+    transform: scale(1.1);
+    color: white;
+    background-color: black;
+    letter-spacing: 5px;
+}
+
+.ava{
+    margin-top: 40px;
+}
+
+.porto{
+    background-image: url(../img/white-podium-pedestal-product-display-white-background-3d-rendering.jpg);
+    font-family: kurus;
+}
+
+
+.tit{
+    font-family: keren;
+}
+
+.value{
+    padding-left: 100px;
+}
+
+table{
+    border-collapse:collapse ;
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+}
+td{
+    padding: 10px;
+}
+tr{
+    border-bottom: 1px solid #bbbbbb;
+}
+
+tr:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.otak{
+    transition: ease 0.3s;
+    margin: 10px;
+    width: 47%;
+    overflow: hidden;
+    border-radius: 10px;
+    filter: saturate(1);
+}
+
+.otak img{
+    filter: saturate(0);
+    width: 100%;
+}
+
+.otak:hover{
+    transform: scale(1.1);
+}
+
+.otak img:hover{
+    filter: saturate(1);
+
+}
+
+
+.ico{
+    margin: 10px 100px;
+    transition: 0,3s ease;    
+    width: 40px;
+    transition: 0.3s ease;
+}
+
+
+img.ico:hover{
+    transform: scale(1.5) rotate(10deg);
+}
